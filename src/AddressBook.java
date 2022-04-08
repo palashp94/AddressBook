@@ -36,4 +36,7 @@ public class AddressBook {
 
     public void editContact(String check) {
     }
+
+    public void deleteContact(String firstName) {
+    }
 }
