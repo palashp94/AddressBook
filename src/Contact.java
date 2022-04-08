@@ -1,11 +1,10 @@
-public class CreateContact {
-        private String firstName;
-        private String lastName;
-        private String address;
-        private String city;
-        private int zip;
-        private int phoneNumber;
-        private String email;
+public class Contact { private String firstName;
+    private String lastName;
+    private String address;
+    private String city;
+    private int zip;
+    private long phoneNumber;
+    private String email;
 
     public String getFirstName() {
         return firstName;
@@ -47,11 +46,11 @@ public class CreateContact {
         this.zip = zip;
     }
 
-    public int getPhoneNumber() {
+    public long getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(long phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -64,16 +63,16 @@ public class CreateContact {
     }
 
     @Override
-        public String toString() {
-            return "AddressBook{" +
-                    "firstName='" + firstName + '\'' +
-                    ", lastName='" + lastName + '\'' +
-                    ", address='" + address + '\'' +
-                    ", city='" + city + '\'' +
-                    ", zip=" + zip +
-                    ", phoneNumber=" + phoneNumber +
-                    ", email='" + email + '\'' +
-                    '}';
-        }
+    public String toString() {
+        return "AddressBook{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", zip=" + zip +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                '}';
     }
+}
 
