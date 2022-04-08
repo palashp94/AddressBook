@@ -33,4 +33,7 @@ public class AddressBook {
 
         contacts.add(contact);
     }
+
+    public void editContact(String check) {
+    }
 }
